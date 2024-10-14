@@ -10,12 +10,12 @@ from flask_mail import Mail, Message
 app = Flask(__name__)
 
 # Email configuration
-app.config['MAIL_SERVER'] = 'smtp.gmail.com'
+app.config['MAIL_SERVER'] = 'smtp.thapar.edu'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'igenerator57@gmail.com'  # Your email
-app.config['MAIL_PASSWORD'] = 'zfuvwfmfmlsdlxdz'  # Your app password
-app.config['MAIL_DEFAULT_SENDER'] = 'igenerator57@gmail.com'  # Your email
+app.config['MAIL_USERNAME'] = 'abhati_be22@thapar.edu'  # Your email
+app.config['MAIL_PASSWORD'] = '07@Britney'  # Your app password
+app.config['MAIL_DEFAULT_SENDER'] = 'abhati_be22@thapar.edu'  # Your email
 mail = Mail(app)
 
 # Function to download videos using yt-dlp
